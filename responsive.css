@@ -1,0 +1,235 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  /* Navbar */
+  .nav-logo a {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  /* Header */
+  .beranda-wrapper h1 {
+    font-size: 32px;
+  }
+
+  /* About */
+  .about-wrapper {
+    padding: 40px 10px;
+  }
+  .logo {
+    width: 30%;
+    margin-right: 30px;
+  }
+  .heading-about h2 span {
+    margin: 5px 0 0 0;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .heading-about h2 {
+    font-size: 20px;
+  }
+
+  .heading-about h3 {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  /* Kategori */
+  .kategori-flex {
+    flex-wrap: wrap;
+  }
+  .img-wrapper {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  /* Testimoni */
+  .members {
+    width: 100%;
+    padding: 10px 10px;
+  }
+
+  .member {
+    padding: 0 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 25%;
+    margin-bottom: 50px;
+  }
+
+  .member h3 {
+    font-size: 13px;
+  }
+
+  .member p {
+    font-size: 11px;
+  }
+  .member-foto {
+    margin-top: 10px;
+    margin-left: -60px;
+    width: 17%;
+  }
+
+  .member img {
+    width: 125px;
+    height: 125px;
+  }
+
+  .txt-contents {
+    width: 100%;
+    margin-left: 1px;
+    padding: 10px 10px;
+  }
+
+  /* Footer */
+  #contact {
+    padding: 30px 0;
+  }
+  .footer-section h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .footer-section p {
+    font-weight: 400;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  /* Navbar */
+  .fa {
+    display: inline-block;
+    color: white;
+    font-size: 32px;
+    float: right;
+    margin-top: 24px;
+  }
+  .menu {
+    float: none;
+  }
+  .nav-logo {
+    font-size: 24px;
+  }
+  nav ul {
+    display: none;
+  }
+
+  /* Header */
+  .btn-wrapper .btn {
+    width: 45%;
+    float: left;
+  }
+
+  .beranda-wrapper {
+    text-align: left;
+  }
+
+  .beranda-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .beranda-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /* About */
+  .about-wrapper {
+    padding: 30px 5px;
+  }
+  .btn-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    width: 40%;
+    margin: 50px 10px 25px 5px;
+  }
+
+  .heading-about h2 span {
+    margin: 5px 0 0 0;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .heading-about h2 {
+    font-size: 18px;
+  }
+
+  .heading-about h3 {
+    font-size: 9px;
+  }
+
+  .daftar {
+    padding: 7.5px 20px;
+  }
+
+  .masuk {
+    padding: 7.5px 20px;
+  }
+
+  /* Kategori */
+  .kategori-flex {
+    flex-wrap: wrap;
+  }
+  .img-wrapper {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  /* Testimoni */
+  .testimoni {
+    height: 100%;
+    padding-bottom: 20px;
+  }
+
+  .members {
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 10px;
+  }
+
+  .member {
+    position: relative;
+    padding: 0 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .member h3 {
+    font-size: 13px;
+  }
+
+  .member p {
+    font-size: 11px;
+  }
+  .member-foto {
+    width: 100px;
+    top: 20px;
+  }
+
+  .txt-contents {
+    width: 80%;
+    margin-left: 33px;
+  }
+
+  /* Footer */
+  #contact {
+    padding: 20px 0;
+  }
+  .footer-section h3 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 5px;
+  }
+  .footer-section p {
+    font-size: 10px;
+    font-weight: 400;
+  }
+}
